@@ -1,65 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ozymandias</title>
+"use strict";
 
 
-</head>
-<body>
-<h1>Ramses J.M. Sugich</h1>    
-<h3></h3>
-<ul>Artic Circle; Supervisor 2007-2009</ul>
-<ul>Rimports; Production Lead 2009-2011</ul>
-<ul>LaVoiture auto shop; Collison Tech 2011-2012</ul>
-<ul>DirecTV; Tech support 2012-2013</ul>
-<ul>Nintendo; Tech support lvl 2 2013-2014</ul>
-<ul>USMC; Security Manager Assist; 2014-2018</ul>
-
-
-<ul>Questions</ul>
-<li>Won anything in life?</li>
-<li>Any Craftmanship?</li>
-<li>Does Ramses understand a bit of art?</li>
-<li>loves animals too much for no meat?</li>
-<li>Interviewed anyone who has been on TV?</li>
-<li>How much does Ramses love the United States?</li>
-<li>Which arcade game helped him get a job in life?</li>
-
-<ol>Answers
-<li>No competitions won.</li>
-<li>Just know how to build aircooled VWs.</li>
-<li>Estevan Oriol's photography is amazing, along with the iconic mural artist Never.</li>
-<li>Hunting is the best way to honor the animals we eat.</li>
-<li>Touched in a very personal manner by one of his favorite comedians.</li>
-<li>21 states</li>
-<li>Initial D</li> 
-</ol>
-
-<h4>Top Ten Favorite Pugilist</h4>
-<ol>
-    <li>Joe Gans</li>
-    <li>Sugar Ray Robinson</li>
-    <li>Salvador Sanchez</li>
-    <li>Henry Armstrong</li>
-    <li>Julio Cesar Chavez Sr.</li>
-    <li>Jose Napoles</li>
-    <li>Marvin Hagler</li>
-    <li>Roberto Duran</li>
-    <li>Mike Tyson</li>
-    <li>Vasyl Lomanchenko</li>
-    </ol>
-<script>
 
 // The very first question to get the user engaged
 var Greeting = prompt('Hello! Who are you?');
 console.log('Hello! Who are you?' + Greeting);
 alert(' ok then ' + Greeting + ', you seem like a good time. Welcome to my page, stick around and play along. Just a few guess questions about that one guy Ramses. Just guess Yes or No. ');
 
+//question about competition
 var PrimeraQ = prompt('Has Ramses ever won a competition like golden gloves, Autocross, or Yugioh tournament?');
 console.log('Has Ramses ever won a competition like golden gloves, Autocross, or Yugioh tournament?' + PrimeraQ);
+
+while(!PrimeraQ){
+    PrimeraQ = prompt('Please play along and answer yes or no.')
+}
+
 if(PrimeraQ === 'yes'){
 alert('Nah wrong....no golden gloves...I did meet the legendary Julio Cesar Chavez Sr. though.. Autocross, somewhat close but no. Yugioh.. Yes.. dominated! but it doesnt count, because he let his friend use his deck and play for him.')
 } else if(PrimeraQ === 'no'){
@@ -67,6 +22,9 @@ alert('Nah wrong....no golden gloves...I did meet the legendary Julio Cesar Chav
 } else {
     alert('You must answer yes or no');
 }
+
+
+
 
 var SegundaQ = prompt('Does Ramses know how to sow or a bit of capentry?');
 console.log('Does Ramses know how to sow or capentry?' + SegundaQ);
@@ -121,5 +79,3 @@ alert('Marvel vs Capcom, Initial D, Tekken')
 
 
 </script>
-</body>
-</html> 
