@@ -1,2 +1,4 @@
 # About_Me
-About Ramses
+About Ramses  
+
+Diver: Nichole and Navigator: Ramses
